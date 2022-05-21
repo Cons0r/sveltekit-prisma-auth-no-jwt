@@ -4,7 +4,7 @@
     export const load: Load = ({ session, props }) => {
       if (session.user) {
         return {
-          status: 200,
+          status: 302,
           redirect: '/',
         }
       }
